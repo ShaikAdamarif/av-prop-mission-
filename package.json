@@ -1,19 +1,13 @@
 {
   "name": "av-prop-mission",
   "version": "1.0.0",
-  "description": "AV Prop Mission portal with permanent cloud database",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "build": "echo Build complete"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^5.1.0",
-    "pg": "^8.12.0",
-    "bcryptjs": "^3.0.2",
-    "jsonwebtoken": "^9.0.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0"
+    "better-sqlite3": "^11.10.0",
+    "express": "^5.1.0"
   },
   "engines": {
     "node": "22.x"
