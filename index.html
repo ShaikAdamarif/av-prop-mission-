@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>AV PROP MISSION</title>
+<link rel="icon" href="logo.jpeg" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<canvas id="bgNet"></canvas>
+
+<header class="topbar">
+  <div class="brand">
+    <img src="logo.jpeg" alt="AV PROP MISSION" />
+    <h1>AV PROP MISSION</h1>
+  </div>
+  <nav id="topNav">
+    <button class="navbtn" data-view="home">Home</button>
+    <button class="navbtn" data-view="contact">Contact</button>
+    <button class="navbtn" data-view="services">Services</button>
+    <button class="navbtn" data-view="portfolio">Portfolio</button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<!-- Modal -->
+<div id="modal" class="modal-backdrop hidden">
+  <div class="modal-card animate-pop">
+    <button class="modal-close" id="modalClose">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div id="toast" class="toast hidden"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
